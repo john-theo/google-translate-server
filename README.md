@@ -111,6 +111,11 @@ More details about query parameters: [google-translate-api](https://www.npmjs.co
 
 It's worth mention that, with `google-translate-cn-api`, you can now specify something like `domain: 'cn'` in the parameter to use your local `Google Translate` domain. Mode details can be found [here](https://github.com/lqqyt2423/google-translate-cn-api/blob/HEAD/example.js#L29-L31).
 
+## Credit
+
+- [google-translate-api](https://github.com/matheuss/google-translate-api)
+- [google-translate-cn-api](https://github.com/lqqyt2423/google-translate-cn-api)
+
 ## Repository
 
 **Github:** [John-Theo/google-translate-server](https://github.com/John-Theo/google-translate-server)
