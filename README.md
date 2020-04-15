@@ -1,5 +1,7 @@
 # Google Translate Server
 
+![](https://img.shields.io/badge/build-passing-success) ![](https://img.shields.io/badge/language-nodejs-orange.svg) [![](https://img.shields.io/badge/docker-ready-orange)](https://hub.docker.com/r/johndope/google-translate-server) [![](https://img.shields.io/docker/pulls/johndope/google-translate-server.svg)](https://hub.docker.com/r/johndope/google-translate-server) ![](http://img.shields.io/badge/license-MIT-lightgrey)
+
 A express.js server wrapper for [google-translate-cn-api
 ](https://www.npmjs.com/package/google-translate-cn-api)
 
