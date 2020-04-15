@@ -36,7 +36,7 @@ curl http://localhost:30031/?text=I spea Dutch!&to=zh-cn
 ## Use docker `Recommended`
 
 ```shell
-docker run -it --rm -p 30031:30031 -e "DOMAIN=cn" google-translate-server
+docker run -it --rm -p 30031:30031 -e "DOMAIN=cn" johndope/google-translate-server
 ```
 
 ## Run directly
