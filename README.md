@@ -5,6 +5,15 @@ A express.js server wrapper for [google-translate-cn-api
 
 Use Google Translate API **WITHOUT a Goole account**!
 
+## Features
+
+- **Updated**, use Google Translate Web API;
+- **Open Source**, **FREE** forever;
+- **Cross Language**, simple REST API, basic url request in any language;
+- **Fast**, choose your local Google Translate domian (eg. https://translate.google.cn/);
+- **Auto Correction**;
+- **ZERO Config**, `docker` ready, start service in 1 minute.
+
 ## Example
 
 ### Request
