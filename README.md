@@ -104,7 +104,8 @@ It's worth mention that, with `google-translate-cn-api`, you can now specify som
 
 ## Repository
 
-[John-Theo/google-translate-server](https://github.com/John-Theo/google-translate-server)
+**Github:** [John-Theo/google-translate-server](https://github.com/John-Theo/google-translate-server)
+**Docker Hub:** [johndope/google-translate-server](https://hub.docker.com/r/johndope/google-translate-server/)
 
 ## License
 
