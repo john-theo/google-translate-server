@@ -1,20 +1,20 @@
 const translate = require("google-translate-cn-api");
-const stdio = require("stdio");
+// const stdio = require("stdio");
 const express = require("express");
 const date = require("date-and-time");
 
 const app = express();
-const ops = stdio.getopt({
-  port: { key: "p", args: 1, description: "running port", default: 30031 },
-  domain: {
-    key: "d",
-    args: 1,
-    description: "google translate port",
-    default: "com",
-  },
-});
-const port = parseInt(ops.port);
-const domain = ops.domain;
+// const ops = stdio.getopt({
+//   port: { key: "p", args: 1, description: "running port", default: 30031 },
+//   domain: {
+//     key: "d",
+//     args: 1,
+//     description: "google translate port",
+//     default: "com",
+//   },
+// });
+const port = process.env.PORT || 3000;;
+const domain = "com";
 
 // log functionalities
 const timeFormat = date.compile("YYYY/MM/DD HH:mm:ss");
