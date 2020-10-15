@@ -10,7 +10,7 @@ const app = express();
 //     key: "d",
 //     args: 1,
 //     description: "google translate port",
-//     default: "com",
+//     default: "cn",
 //   },
 // });
 const port = process.env.PORT || 3000;;
