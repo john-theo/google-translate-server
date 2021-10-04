@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "date-and-time": "^0.13.1",
+    "date-and-time": "^0.14.2",
     "express": "^4.17.1",
     "google-translate-cn-api": "^1.0.6",
     "stdio": "^2.1.1"
