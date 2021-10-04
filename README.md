@@ -1,11 +1,19 @@
 # Google Translate Server
 
-![](https://img.shields.io/badge/build-passing-success) ![](https://img.shields.io/badge/language-nodejs-orange.svg) [![](https://img.shields.io/badge/docker-ready-orange)](https://hub.docker.com/r/johndope/google-translate-server) [![](https://img.shields.io/docker/pulls/johndope/google-translate-server.svg)](https://hub.docker.com/r/johndope/google-translate-server) ![](http://img.shields.io/badge/license-MIT-lightgrey)
+![No Maintenance Intended](http://unmaintained.tech/badge.svg) ![](https://img.shields.io/badge/deprecated-red) ![](https://img.shields.io/badge/language-nodejs-orange.svg) [![](https://img.shields.io/badge/docker-ready-orange)](https://hub.docker.com/r/johndope/google-translate-server) [![](https://img.shields.io/docker/pulls/johndope/google-translate-server.svg)](https://hub.docker.com/r/johndope/google-translate-server) ![](http://img.shields.io/badge/license-MIT-lightgrey)
+
+## !!!DEPRECATED!!!
+
+After a lot of "googling", I'm sorry to confirm that similar approaches are **NO LONGER WORKING** now. And you **HAVE TO** own a Google Developer account for the simple task.
+
+**BUT!** DO try out the [DeepL API](https://www.deepl.com/en/docs-api/)! As far as my uses cases are concerned, it works a lot better than Google Translate! Everyone end up here comes for the same reason, and I hope DeepL can be a better successor for you!
+
+---
 
 A express.js server wrapper for [google-translate-cn-api
 ](https://www.npmjs.com/package/google-translate-cn-api)
 
-Use Google Translate API **WITHOUT a Goole account**!
+Use Google Translate API **WITHOUT a Google account**!
 
 ## Features
 
